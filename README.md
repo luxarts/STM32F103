@@ -16,7 +16,7 @@ Existen cuatro librerías para el desarrollo de aplicaciones para dispositivos A
 - HAL (Hardware Abstraction Layer): Es mas nueva que la anterior. Su uso es mas fácil que la SPL a coste de sacrificar rendimiento.
 - LL (Low Layer): Es la mas reciente y se creó con el fin de dar la posibilidad al programador de trabajar en un lenguaje de alto nivel (C) teniendo el control como en un lenguaje de bajo nivel (ASM).
 
-A pesar de haber elegido la SPL, muchas de lo explicado en la documentación es compatible con la HAL. Obviamente hay que tener en cuenta el reemplazo de las funciones entre una librería y la otra. La mayoría de las funciones de la SPL existen en la HAL agregándole el prefijo HAL_ al nombre de la función.
+A pesar de haber elegido la SPL, mucho de lo explicado en la documentación es compatible con la HAL. Obviamente hay que tener en cuenta el reemplazo de las funciones entre una librería y la otra. La mayoría de las funciones de la SPL existen en la HAL agregándole el prefijo _HAL__ al nombre de la función.
 
 # Hardware
 El hardware utilizado es el microcontrolador STM32F103C8 de la empresa ST Microelectronics. Dicho microcontrolador se puede conseguir de manera individual o soldado sobre una placa similar a una Arduino Micro.
