@@ -3,7 +3,7 @@ Manual español sobre el microcontrolador STM32F103C8. Toda la documentación y 
 
 # Software
 El software se compone de dos partes: El IDE y las librerías
-### IDE
+### Entorno de desarrollo (IDE)
 Todos los ejemplos aquí expuestos fueron desarrollados en el IDE [TrueSTUDIO](https://atollic.com/resources/download/windows/) de la empresa Atollic. Sin embargo la mayoría de los IDE para arquitectura ARM funcionarán. Algunos de ellos son:
 - CooCoox CoIDE
 - mikroC (pago)
