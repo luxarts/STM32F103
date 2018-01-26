@@ -7,6 +7,7 @@ El USB es utilizado como estándar de conexión de periféricos como: teclados, 
 El protocolo HID realiza la implementacion de dispositivos de manera simple. Los dispositivos definen sus paquetes de datos y luego envían un "descriptor HID" al host. El descriptor HID es un vector de bytes hard-codedeados (es decir, que los datos están escritos en el mismo programa) que describe los paquetes de datos. Esto incluye: cuántos paquetes soporta el dispositivo, de que tamaño son los paquetes y el propósito de cada byte y cada bit en el paquete.  
 Por ejemplo, en un teclado con un botón con la función de abrir la calculadora le indica al host que el estado de presionado/soltado se encuentra en el 2do bit del 6to byte en el paquete de datos número 4. (Nota: Estas localizaciones son solo de ejemplo y específicas del dispositivo). El dispositivo generalmente guarda el descriptor HID en la ROM y no necesita entender el significado o modificarlo.  
 
+## Generación del descriptor
 En resumen, el descriptor es lo que le indica al host qué dispositivo es el que se conectó, los datos que se enviarán y su órden.  
 La mejor manera de entender como crear un descriptor para un dispositivo es haciendo uno de ejemplo.  
 
