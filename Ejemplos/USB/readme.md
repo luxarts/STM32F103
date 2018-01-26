@@ -15,7 +15,7 @@ También se necesitará el software [HID Descriptor Tool](http://www.usb.org/dev
 
 Para el ejemplo haremos un dispositivo HID comportandose como un mouse. El mouse cuenta con 3 botones (clic izquierdo, clic central y clic derecho) junto a dos dimensiones las cuales son dadas por el movimiento en el eje X y en el eje Y. De esta manera nos queda la siguiente tabla:
 
-ImagenTabla
+![TablaMouse](https://github.com/luxarts/STM32F103/blob/master/Ejemplos/USB/TablaEjemploMouse.PNG?raw=true)
 
 Por lo que la estructura en C quedaría
 ```c
