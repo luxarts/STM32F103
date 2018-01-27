@@ -39,3 +39,6 @@ El hardware utilizado es el microcontrolador STM32F103C8 de la empresa ST Microe
 Para programar este microcontrolador se pueden utilizar dos maneras:
 - **USB-Serie**: Utilizar el puerto USB integrado en la placa. Para ello se debe cargar un bootloader (programa de arranque) en el microcontrolador de tal manera que use el puerto USB como un puerto serie virtual. Con este método es posible grabar las aplicaciones en la memoria FLASH utilizando el IDE Arduino. Este método no tiene depurador (debug).
 - **ST Link V2**: Es un programador/depurador de formato similar a un pendrive. La conexión se lleva a cabo por 2 lineas (SWDIO y SWCLK) junto a la alimentación (3.3v y GND) y el reset. Este dispositivo es el utilizado en este repositorio para cargar los programas en el microcontrolador y depurarlos.
+
+# Links útiles
+- [Solución: No device found on target](https://electronics.stackexchange.com/questions/204996/stm32-st-link-cannot-connect-to-mcu-after-successful-programming)
