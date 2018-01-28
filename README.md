@@ -42,3 +42,5 @@ Para programar este microcontrolador se pueden utilizar dos maneras:
 
 # Links útiles
 - [Solución: No device found on target](https://electronics.stackexchange.com/questions/204996/stm32-st-link-cannot-connect-to-mcu-after-successful-programming)
+- [Tutorial USB HID report descriptor](http://eleccelerator.com/tutorial-about-usb-hid-report-descriptors/)
+- [Custom HID USB para STM32](https://damogranlabs.com/2016/03/stm32-custom-usb-hid-device-yes-please/)
