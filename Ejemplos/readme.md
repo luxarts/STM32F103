@@ -5,6 +5,6 @@ Si notás algún error o crees que se puede mejorar el código publicalo en la p
 ### Documentación de los ejemplos
 A pesar de que dentro del código se encuentran comentarios con el fin de interpretar los algoritmos de manera fácil y rápida, cada periférico cuenta con un archivo de documentación independiente que describe las funciones y explica los algoritmos un poco mas detalladamente que en el código.
 
-### Librería Ardulike
+### Librería Arduino-like
 Dada la inmensa comunidad de la plataforma Arduino también se podrán encontrar librerías independientes para cada periférico con un formato similar a las de Arduino con el fin de poder realizar codigos semi-portables entre ambas plataformas.
 Las librerías no son mas que los algoritmos descriptos en los ejemplos encapsulados dentro de funciones, por lo que se recomienda leer los ejemplos para poder solventar posibles problemas.
