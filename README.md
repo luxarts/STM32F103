@@ -17,8 +17,6 @@ Existen cuatro librerías para el desarrollo de aplicaciones en C para dispositi
 - LL (Low Layer): Es la mas reciente y se creó con el fin de dar la posibilidad al programador de trabajar en un lenguaje de alto nivel (C) teniendo el control como en un lenguaje de bajo nivel (ASM).
 - Generica: Librería por defecto incluida al crear un proyecto en cualquier compilador. Esta libreria tiene los defines con los nombres que aparecen en la [hoja de referencia](https://github.com/luxarts/STM32F103/blob/master/Documentos/STM32%20Reference.pdf) y sus respectivas posiciones de memoria.
 
-A pesar de haber elegido la SPL, mucho de lo explicado en la documentación es compatible con la HAL. Obviamente hay que tener en cuenta el reemplazo de las funciones entre una librería y la otra. La mayoría de las funciones de la SPL existen en la HAL agregándole el prefijo _HAL__ al nombre de la función.
-
 # Hardware
 El hardware utilizado es el microcontrolador STM32F103C8 de la empresa ST Microelectronics. Dicho microcontrolador se puede conseguir de manera individual o soldado sobre una placa similar a una Arduino Micro.
 
