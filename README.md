@@ -12,8 +12,8 @@ Todos los ejemplos aquí expuestos fueron desarrollados en el IDE [TrueSTUDIO](h
 
 ### Librerías
 Existen cuatro librerías para el desarrollo de aplicaciones en C para dispositivos ARM:
-- SPL (Standard Peripheral Library): Es la mas antigua. Es la utilizada en los ejemplos y documentación.
-- HAL (Hardware Abstraction Layer): Es mas nueva que la anterior. Su uso es mas fácil que la SPL a coste de sacrificar rendimiento.
+- SPL (Standard Peripheral Library): Es la mas antigua. Es la incluida al crear un proyecto desde el TrueSTUDIO.
+- HAL (Hardware Abstraction Layer): Es mas nueva que la anterior. Su uso es mas fácil que la SPL a coste de sacrificar un poco de rendimiento. Se incluye al crear el proyecto con el CubeMX y será la utilizada en las explicaciones y ejemplos de este repositorio.
 - LL (Low Layer): Es la mas reciente y se creó con el fin de dar la posibilidad al programador de trabajar en un lenguaje de alto nivel (C) teniendo el control como en un lenguaje de bajo nivel (ASM).
 - Generica: Librería por defecto incluida al crear un proyecto en cualquier compilador. Esta libreria tiene los defines con los nombres que aparecen en la [hoja de referencia](https://github.com/luxarts/STM32F103/blob/master/Documentos/STM32%20Reference.pdf) y sus respectivas posiciones de memoria.
 
