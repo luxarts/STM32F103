@@ -129,3 +129,8 @@ COLLECTION (Application)
     END COLLECTION
 END COLLECTION
 ```
+
+# Agregar el descriptor al proyecto
+- Generar un proyecto con CubeMX usando el USB como HID (NO CUSTOM HID)
+- Editar el archivo "usbd_hid.c" (Middlewares > USB_Device_library)
+    - USBD_HID_CfgDesc[…]
