@@ -1,7 +1,3 @@
-
-
-
-
 # STM32F103
 Manual español sobre el microcontrolador STM32F103C8. Toda la documentación y ejemplos aquí expuestos han sido probados.
 
@@ -29,13 +25,13 @@ El hardware utilizado es el microcontrolador STM32F103C8 de la empresa ST Microe
 ### Características
 - Arquitectura: ARM Cortex M3 32-bit
 - Frecuencia máxima: 72MHz
-- FLASH: 64kb
-- SRAM: 20kb
+- Memoria FLASH: 64kb
+- Memoria SRAM: 20kb
 - Tensión de trabajo: 2.0v a 3.6v
-- Comunicaciónes: 3x USART, 2x I2C, 3x USART, 2x SPI, CAN, USB
-- Timer: 3x 16 bit (16 canales PWM)
-- ADC: 12 bits 1uS (10 canales)
-- DMA: Timer, ADC, SPI, I2C, USART (7 canales)
+- Comunicaciónes: 3x USART, 2x I2C, 2x SPI, CAN, USB
+- Timer: 3x 16 bit (15 canales PWM)
+- ADC: 12 bits (10 canales)
+- DMA: 7 canales
 - GPIO: 32 pines disponibles, la mayoría tolera 5V
 
 ![Pinout](https://github.com/luxarts/STM32F103/blob/master/Documentos/STM32-Pinout.gif?raw=true)
