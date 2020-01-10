@@ -42,3 +42,4 @@ Para programar este microcontrolador se pueden utilizar dos maneras:
 - [Solución: No device found on target](https://electronics.stackexchange.com/questions/204996/stm32-st-link-cannot-connect-to-mcu-after-successful-programming)
 - [Tutorial USB HID report descriptor](http://eleccelerator.com/tutorial-about-usb-hid-report-descriptors/)
 - [Custom HID USB para STM32](https://damogranlabs.com/2016/03/stm32-custom-usb-hid-device-yes-please/)
+- [STM32CubeIDE not open in macOS](https://community.st.com/s/question/0D50X0000BUh6nK/not-able-to-open-stm32cubeide-110-on-macos-mohave-10146)
